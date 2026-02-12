@@ -1,0 +1,70 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    background-color: #ffffff;
+    border: 2px solid #87ceeb;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    color: #1e90ff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #87ceeb;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+button {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4682b4;
+}
+
+p {
+    background-color: #f0f8ff;
+    border: 1px solid #87ceeb;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+#Total {
+    background-color: #add8e6;
+    font-weight: bold;
+}
