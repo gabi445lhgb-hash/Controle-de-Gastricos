@@ -7,6 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    flex-direction: column;
 }
 
 main {
@@ -29,7 +30,9 @@ form {
     margin-bottom: 20px;
 }
 
-input, select, button {
+input,
+select,
+button {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -67,4 +70,23 @@ p {
 #Total {
     background-color: #add8e6;
     font-weight: bold;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #1e90ff;
+    background-color: #87ceeb;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Controle de Gastos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <main>
-        <h1>Controle de Gastos</h1>
+        <h1 id="hp">Controle de Gastos</h1>
         <form>
             <input id="valor" type="number" placeholder="Digite o valor do gasto" />
             <select id="categoria">
-                <option >Alimentação</option>
-                <option >Transporte</option>
-                <option >Lazer</option>
-                <option >Outros</option>
+                <option>Alimentação</option>
+                <option>Transporte</option>
+                <option>Lazer</option>
+                <option>Outros</option>
             </select>
             <button type="button" onclick="adicionarGasto()">Adicionar Gasto</button>
         </form>
@@ -25,6 +27,10 @@
         <p id="Outros">Outros: R$ 0,00</p>
         <p id="Total">Total: R$ 0,00</p>
     </main>
+    <footer>
+        <a id="link1" href="sla.html" target="_blank">sla</a>
+    </footer>
     <script src="scripts.js"></script>
 </body>
+
 </html>
